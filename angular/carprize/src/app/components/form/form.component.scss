@@ -1,0 +1,62 @@
+.container{
+	width:80%;
+	margin:auto;	
+}
+
+
+.input {
+	width: 30%;
+	}
+
+.input label {
+	transform: translateY(-50%);
+	left: 5%;
+	background: white;	
+	color: #cc3333;
+
+	
+}
+
+.input1 {
+	width: 90%;
+	
+	padding-bottom: 1%;
+	margin:auto;
+	justify-content: space-between;
+    display: flex;
+    
+}
+
+.input2 {
+	border: 0.5px solid black;
+	width: 100%;
+	font-size: 25px;
+	justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown {
+	position: relative;
+	margin-top: 20px;
+}
+.dropdown label {
+	position: absolute;
+	top: 0;
+	transform: translateY(-90%);
+	padding: 5px 2px;
+	color: #cc3333;
+}
+.dropdown select {
+	padding: 10px 120px;
+	font-size: 20px;
+	outline: 0;
+	border: 0.5px solid black;    
+}
+.drop1{
+	width:90%;
+	margin:auto;
+	justify-content: space-between;
+    display: flex;
+    align-items: center;
+}

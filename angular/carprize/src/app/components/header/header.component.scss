@@ -1,0 +1,30 @@
+#navbar1{
+	background-color:#333;
+	color:#fff;
+}
+
+#navbar1 ul{
+	padding:0;
+	list-style: none; 
+    text-align: right; 
+}
+
+#navbar1 li{
+	display:inline;
+}
+
+#navbar1 a{
+	color:#fff;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+}
+
+.container1{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}

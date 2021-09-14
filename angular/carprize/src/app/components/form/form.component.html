@@ -1,0 +1,60 @@
+<div class="container">
+<form #PrizeForm="ngForm"  (ngSubmit)="onCalculate(PrizeForm)"  novalidate>
+
+<div class="input1">
+          <div class="input">
+            <label>Year</label>
+            <input class="input2" type="number" name="year" ngModel>
+          </div>
+
+          <div class="input">
+            <label>New car original price</label>
+            <input class="input2" type="number" name="originalPrice" ngModel>
+          </div>
+
+            <div class="input">
+              <label>Kilometer driven</label>
+              <input class="input2" type="number" name="kilometer" ngModel>
+            </div>
+</div>
+
+
+    <div class="drop1">
+      <div class="dropdown">
+        <label>Transmission Type</label>
+        <select name="transmission" ngModel >
+            <option *ngFor = "let trnasmission of transmission" >{{trnasmission}}</option>
+        </select>
+      </div>
+
+<div class="dropdown">
+  <label>Previous Owners</label>
+  <select name="owner" ngModel>
+    <option *ngFor = "let onwer of owners">{{onwer}}</option>
+</select>
+</div>
+
+    </div>
+<div class="drop1">
+  <div class="dropdown">
+    <label>Fuel Type</label>
+    <select name="fuel" ngModel >
+        <option *ngFor = "let feul of fuel">{{feul}}</option>
+    </select>
+  </div>
+
+    <div class="dropdown">
+      <label>Seller Type</label>
+      <select name="seller" ngModel>
+          <option *ngFor = "let sellre of seller">{{sellre}}</option>
+      </select>
+    </div>
+  </div>
+
+<br>
+<br>
+<div style="text-align: center;"><button  type="submit">Calculate</button></div>
+<br><br>    
+</form>
+
+</div>
